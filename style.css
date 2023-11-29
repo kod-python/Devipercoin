@@ -167,8 +167,13 @@ hr{
    
 }
 
+#hash .fa-volume-high{
+    color:  rgb(92, 89, 89);
+}
+
 #hash .fa-wallet{
     font-size: 2rem;
+    color:  rgb(92, 89, 89);
 }
 
 
@@ -423,6 +428,10 @@ footer i{
 
 footer .foot-main a{
     color: white;
+}
+
+footer .foot-main a:hover{
+    color: goldenrod;
 }
 
 /* footer ends here */
