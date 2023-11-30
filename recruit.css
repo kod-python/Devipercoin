@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: all 1s linear;
+    
+    
+}
+
+body{
+background-color: rgb(29, 24, 24);
+
+}
+
+/* univeral */
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    background-color:#323232
+}
+
+/* universal ends here */
+
+
+/* header starts here */
+
+
+header .header-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    padding-bottom: 30px;
+  
+}
+
+#header a{
+    text-decoration: none;
+}
+
+header i:hover {
+    color: goldenrod;
+}
+
+header h1{
+    color: white;
+    text-transform: capitalize;
+    
+}
+
+header i{
+    font-size: 2rem;
+    color: rgb(145, 136, 136);
+
+    margin-left: -400px;
+}
+
+/* header ends here */
+
+/* bodypage starts here */
+
+#bodypage .body1{
+    color: goldenrod;
+    font-size: 1.5rem;
+    text-align: justify;
+    padding-bottom: 10px;
+    
+}
+
+#bodypage .body2{
+    color: white;
+    padding-bottom: 10px;
+
+}
+
+#bodypage .body3{
+    color:rgb(145, 136, 136) ;
+    padding-bottom: 20px;
+}
+
+#bodypage .bodybody{
+    color: white;
+    padding-bottom: 10px;
+}
+
+#bodypage .body4{
+    color:goldenrod;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+#bodypage .body6{
+    color:rgb(145, 136, 136) ;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+#bodypage .notes{
+    color: rgb(214, 70, 70);
+}
+
+#bodypage a{
+    color: white;
+}
+
+#bodypage .team{
+    padding-bottom: 20px;
+}
+#bodypage button{
+    
+    width: 200px;
+    height: 39px;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    
+   
+}
+
+#bodypage .btn1{
+    background-color: goldenrod;
+    
+}

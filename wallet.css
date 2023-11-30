@@ -1,0 +1,706 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: all 1s  linear;
+    
+    
+}
+
+body{
+background-color: rgb(29, 24, 24);
+
+}
+
+/* univeral */
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    background-color:#323232
+}
+
+/* universal ends here */
+
+
+/* header starts here */
+
+
+header .header-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    padding-bottom: 30px;
+  
+}
+
+#header a{
+    text-decoration: none;
+}
+
+header i:hover {
+    color: goldenrod;
+}
+
+header h1{
+    color: white;
+    text-transform: capitalize;
+    
+}
+
+header i{
+    font-size: 2rem;
+    color: rgb(145, 136, 136);
+
+    margin-left: -400px;
+}
+
+/* header ends here */
+
+/* asset starts here */
+
+
+
+#asset .bt-greater{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+   
+
+   
+}
+
+#asset .asset-down{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+  
+}
+
+#asset i{
+    color:  rgb(145, 136, 136);;
+}
+
+#asset .bt-greter1{
+    display: flex;
+    align-items: center;
+    
+}
+
+#asset hr{
+    margin-top: 20px;
+    
+}
+
+#asset .head1{
+    color: white;
+}
+
+
+#asset .page1{
+    color: white;
+    font-size: 1.3rem;
+}
+
+#asset .head2{
+    color: rgb(145, 136, 136);
+    font-size: 1.3rem;
+}
+
+
+#asset a{
+    text-decoration: none;
+}
+/* asset ends here */
+
+
+/* btc starts here */
+
+
+#btc{
+    margin: 10px;
+}
+#btc .bt-greater{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+   
+
+   
+}
+
+#btc .asset-down{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+  
+}
+
+#btc .bt-greter1{
+    display: flex;
+    align-items: center;
+    
+}
+
+#btc hr{
+    margin-top: 20px;
+    
+}
+
+#btc .head1{
+    color: white;
+}
+
+
+#btc .page1{
+    color: white;
+    font-size: 1.3rem;
+}
+
+#btc .head2{
+    color: rgb(145, 136, 136);
+    font-size: 1.3rem;
+}
+
+#btc i{
+    color: rgb(145, 136, 136);
+}
+
+#btc a{
+    text-decoration: none;
+}
+
+#btc button{
+    padding: 0.7rem;
+    width: 160px;
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+#btc .buttyp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#btc .btn{
+    background-color: black;
+    color: rgb(145, 136, 136);
+}
+#btc .btn1{
+    border-color: goldenrod;
+    color: goldenrod;
+    background-color: black;
+}
+
+/* btc ends here */
+
+
+/* core starts here */
+
+
+
+#core{
+    margin: 10px;
+}
+#core .core-greater{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+   
+
+   
+}
+
+#core .core-down{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+  
+}
+
+#core .core-greter1{
+    display: flex;
+    align-items: center;
+    
+}
+
+#core hr{
+    margin-top: 20px;
+    
+}
+
+#core .head1{
+    color: white;
+}
+
+
+#core .page1{
+    color: white;
+    font-size: 1.3rem;
+}
+
+#core .head2{
+    color: rgb(145, 136, 136);
+    font-size: 1.3rem;
+}
+
+#core i{
+    color: rgb(145, 136, 136);
+}
+
+#core a{
+    text-decoration: none;
+}
+
+#core button{
+    padding: 0.7rem;
+    width: 160px;
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+#core .buttyp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#core .btn{
+    background-color: black;
+    color: rgb(145, 136, 136);
+}
+#core .btn1{
+    border-color: goldenrod;
+    color: goldenrod;
+    background-color: black;
+}
+
+/* core ends here */
+
+
+/* ETH starts here */
+
+
+
+#eth{
+    margin: 10px;
+}
+#eth .eth-greater{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+   
+
+   
+}
+
+#eth .eth-down{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+  
+}
+
+#eth .eth-greter1{
+    display: flex;
+    align-items: center;
+    
+}
+
+#eth hr{
+    margin-top: 20px;
+    
+}
+
+#btc .head1{
+    color: white;
+}
+
+
+#eth .page1{
+    color: white;
+    font-size: 1.3rem;
+}
+
+#eth .head2{
+    color: rgb(145, 136, 136);
+    font-size: 1.3rem;
+}
+
+#eth i{
+    color: rgb(145, 136, 136);
+}
+
+#eth a{
+    text-decoration: none;
+}
+
+#eth button{
+    padding: 0.7rem;
+    width: 160px;
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+#eth .buttyp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#eth .btn{
+    background-color: black;
+    color: rgb(145, 136, 136);
+}
+#eth .btn1{
+    border-color: goldenrod;
+    color: goldenrod;
+    background-color: black;
+}
+
+/* ETH ends here */
+
+/* dvp starts here */
+
+
+#dvp{
+    margin: 10px;
+}
+#dvp .dvp-greater{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+   
+
+   
+}
+
+#dvp .dvp-down{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+  
+}
+
+#dvp .dvp-greter1{
+    display: flex;
+    align-items: center;
+    
+}
+
+#dvp hr{
+    margin-top: 20px;
+    
+}
+
+#dvp .head1{
+    color: white;
+}
+
+
+#dvp .page1{
+    color: white;
+    font-size: 1.3rem;
+}
+
+#dvp .head2{
+    color: rgb(145, 136, 136);
+    font-size: 1.3rem;
+}
+
+#dvp i{
+    color: rgb(145, 136, 136);
+}
+
+#dvp a{
+    text-decoration: none;
+}
+
+#dvp button{
+    padding: 0.7rem;
+    width: 160px;
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+#dvp .buttyp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#dvp .btn{
+    background-color: black;
+    color: rgb(145, 136, 136);
+}
+#dvp .btn1{
+    border-color: goldenrod;
+    color: goldenrod;
+    background-color: black;
+}
+
+/* devipercoin ends here */
+
+
+/* tca starts here */
+
+
+#tca{
+    margin: 10px;
+}
+#tca .tca-greater{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+   
+
+   
+}
+
+#tca .tca-down{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+  
+}
+
+#tca .tca-greter1{
+    display: flex;
+    align-items: center;
+    
+}
+
+#tca hr{
+    margin-top: 20px;
+    
+}
+
+#tca .head1{
+    color: white;
+}
+
+
+#btc .page1{
+    color: white;
+    font-size: 1.3rem;
+}
+
+#tca .head2{
+    color: rgb(145, 136, 136);
+    font-size: 1.3rem;
+}
+
+#tca i{
+    color: rgb(145, 136, 136);
+}
+
+#tca a{
+    text-decoration: none;
+}
+
+#tca button{
+    padding: 0.7rem;
+    width: 160px;
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+#tca .buttyp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#tca .btn{
+    background-color: black;
+    color: rgb(145, 136, 136);
+}
+#tca .btn1{
+    border-color: goldenrod;
+    color: goldenrod;
+    background-color: black;
+}
+
+/* tca ends here */
+
+/* tcb starts here */
+
+
+#tcb{
+    margin: 10px;
+}
+#tcb .tcb-greater{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+   
+
+   
+}
+
+#tcb .tcb-down{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+  
+}
+
+#tcb .tcb-greter1{
+    display: flex;
+    align-items: center;
+    
+}
+
+#tcb hr{
+    margin-top: 20px;
+    
+}
+
+#tcb .head1{
+    color: white;
+}
+
+
+#tcb .page1{
+    color: white;
+    font-size: 1.3rem;
+}
+
+#tcb .head2{
+    color: rgb(145, 136, 136);
+    font-size: 1.3rem;
+}
+
+#tcb i{
+    color: rgb(145, 136, 136);
+}
+
+#tcb a{
+    text-decoration: none;
+}
+
+#tcb button{
+    padding: 0.7rem;
+    width: 160px;
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+#tcb .buttyp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#tcb .btn{
+    background-color: black;
+    color: rgb(145, 136, 136);
+}
+#tcb .btn1{
+    border-color: goldenrod;
+    color: goldenrod;
+    background-color: black;
+}
+
+/* tcb ends here */
+
+/* tcc starts here */
+
+
+#tcc{
+    margin: 10px;
+}
+#tcc .tcc-greater{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+   
+
+   
+}
+
+#tcc .tcc-down{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+  
+}
+
+#tcc .tcc-greter1{
+    display: flex;
+    align-items: center;
+    
+}
+
+#tcc hr{
+    margin-top: 20px;
+    
+}
+
+#btc .head1{
+    color: white;
+}
+
+
+#tcc .page1{
+    color: white;
+    font-size: 1.3rem;
+}
+
+#btc .head2{
+    color: rgb(145, 136, 136);
+    font-size: 1.3rem;
+}
+
+#tcc i{
+    color: rgb(145, 136, 136);
+}
+
+#tcc a{
+    text-decoration: none;
+}
+
+#tcc button{
+    padding: 0.7rem;
+    width: 160px;
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+#tcc .buttyp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#tcc .btn{
+    background-color: black;
+    color: rgb(145, 136, 136);
+}
+#tcc .btn1{
+    border-color: goldenrod;
+    color: goldenrod;
+    background-color: black;
+}
+
+/* tcc ends here */
