@@ -133,9 +133,12 @@ hr{
     gap: 29rem;
     padding-bottom: 20px;
     text-align: center;
+ 
    
    
 }
+
+
 
 #hash h1{
     font-size: 1.3rem;
@@ -157,6 +160,18 @@ hr{
 
 #hash .top-img{
     display: flex;
+    animation: move 3s linear infinite;
+   
+}
+
+
+@keyframes move{
+   
+
+    100%{
+        transform: translateY(0.5rem);
+    }
+    
 }
 
 #hash .hashdown-main2{
@@ -165,6 +180,7 @@ hr{
     justify-content: space-between;
   
     padding-bottom: 20px;
+    margin-top: 20px;
    
 }
 

@@ -292,10 +292,10 @@ header i{
 
 
 
-#eth{
+#cc{
     margin: 10px;
 }
-#eth .eth-greater{
+#cc .cc-greater{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -305,7 +305,7 @@ header i{
    
 }
 
-#eth .eth-down{
+#cc .cc-down{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -313,58 +313,58 @@ header i{
   
 }
 
-#eth .eth-greter1{
+#cc .cc-greter1{
     display: flex;
     align-items: center;
     
 }
 
-#eth hr{
+#cc hr{
     margin-top: 20px;
     
 }
 
-#btc .head1{
+#cc .head1{
     color: white;
 }
 
 
-#eth .page1{
+#cc.page1{
     color: white;
     font-size: 1.3rem;
 }
 
-#eth .head2{
+#cc .head2{
     color: rgb(145, 136, 136);
     font-size: 1.3rem;
 }
 
-#eth i{
+#cc i{
     color: rgb(145, 136, 136);
 }
 
-#eth a{
+#cc a{
     text-decoration: none;
 }
 
-#eth button{
+#cc button{
     padding: 0.7rem;
     width: 160px;
     margin-top: 20px;
     font-size: 1.3rem;
 }
-#eth .buttyp{
+#cc .buttyp{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 
-#eth .btn{
+#cc .btn{
     background-color: black;
     color: rgb(145, 136, 136);
 }
-#eth .btn1{
+#cc .btn1{
     border-color: goldenrod;
     color: goldenrod;
     background-color: black;
